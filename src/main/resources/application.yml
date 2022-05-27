@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: servicio-tarjetas
+        uri: lb://servicio-tarjetas
+        predicates:
+        - Path=/api-gateway/**
+        filters:
+        - StripPrefix=1

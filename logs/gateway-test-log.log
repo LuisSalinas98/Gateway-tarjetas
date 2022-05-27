@@ -1,0 +1,1559 @@
+2022-05-26 13:03:47,852 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 13:03:47,852 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 2844 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 13:03:47,855 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 13:03:47,909 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 13:03:47,909 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 13:03:48,769 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=857253e7-b7d4-3d53-8711-39cc6b749f7d
+2022-05-26 13:03:48,828 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:03:48,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:03:48,831 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:03:49,469 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 13:03:49,470 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 13:03:49,471 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 13:03:49,656 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 13:03:49,665 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 13:03:49,922 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 13:03:49,988 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 13:03:50,033 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 13:03:50,038 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 13:03:50,061 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 13:03:50,062 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 13:03:50,415 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 13:03:50,421 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 13:03:50,428 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 13:03:50,440 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653588230439 with initial instances count: 0
+2022-05-26 13:03:50,441 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 13:03:50,441 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653588230441, current=UP, previous=STARTING]
+2022-05-26 13:03:50,443 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:03:50,523 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:03:50,603 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 13:03:50,605 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 13:03:50,790 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 3.646 seconds (JVM running for 4.728)
+2022-05-26 13:04:20,426 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-05-26 13:04:20,426 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-05-26 13:04:20,426 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-05-26 13:04:20,427 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-05-26 13:04:20,427 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-05-26 13:04:20,427 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-05-26 13:04:20,427 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-05-26 13:04:20,438 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-05-26 13:08:50,068 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:13:50,073 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:18:50,076 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:23:50,092 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:24:52,737 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 13:24:52,737 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653589492737, current=DOWN, previous=UP]
+2022-05-26 13:24:52,737 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:24:52,743 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:24:54,809 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 13:24:57,832 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 13:24:57,837 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - deregister  status: 200
+2022-05-26 13:24:57,879 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-05-26 13:25:05,086 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 7784 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 13:25:05,086 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 13:25:05,090 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 13:25:05,125 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 13:25:05,125 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 13:25:05,734 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=857253e7-b7d4-3d53-8711-39cc6b749f7d
+2022-05-26 13:25:05,783 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:25:05,784 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:25:05,785 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:25:06,258 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 13:25:06,258 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 13:25:06,258 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 13:25:06,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 13:25:06,260 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 13:25:06,260 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 13:25:06,260 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 13:25:06,260 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 13:25:06,413 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 13:25:06,419 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 13:25:06,621 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 13:25:06,676 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 13:25:06,711 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 13:25:06,714 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 13:25:06,733 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 13:25:06,734 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 13:25:06,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 13:25:06,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 13:25:06,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 13:25:06,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 13:25:06,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 13:25:06,999 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 13:25:07,005 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 13:25:07,010 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 13:25:07,020 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653589507020 with initial instances count: 1
+2022-05-26 13:25:07,021 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 13:25:07,022 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653589507022, current=UP, previous=STARTING]
+2022-05-26 13:25:07,024 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:25:07,054 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:25:07,137 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 13:25:07,139 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 13:25:07,292 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 2.718 seconds (JVM running for 3.485)
+2022-05-26 13:29:55,522 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 13:29:55,523 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653589795523, current=DOWN, previous=UP]
+2022-05-26 13:29:55,523 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:29:55,527 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:29:57,601 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 13:30:00,621 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 13:30:00,624 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - deregister  status: 200
+2022-05-26 13:30:00,662 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-05-26 13:30:07,702 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 13:30:07,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 15444 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 13:30:07,705 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 13:30:07,736 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 13:30:07,736 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 13:30:08,362 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=857253e7-b7d4-3d53-8711-39cc6b749f7d
+2022-05-26 13:30:08,416 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:30:08,417 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:30:08,420 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:30:08,944 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 13:30:08,944 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 13:30:08,945 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 13:30:08,945 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 13:30:08,945 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 13:30:08,946 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 13:30:08,947 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 13:30:08,947 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 13:30:08,947 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 13:30:09,118 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 13:30:09,125 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 13:30:09,385 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 13:30:09,449 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 13:30:09,489 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 13:30:09,493 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 13:30:09,517 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 13:30:09,517 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 13:30:09,517 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 13:30:09,518 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 13:30:09,518 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 13:30:09,518 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 13:30:09,518 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 13:30:09,807 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 13:30:09,813 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 13:30:09,819 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 13:30:09,831 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653589809831 with initial instances count: 2
+2022-05-26 13:30:09,832 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 13:30:09,832 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653589809832, current=UP, previous=STARTING]
+2022-05-26 13:30:09,834 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:30:09,869 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:30:09,970 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 13:30:09,972 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 13:30:10,145 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 2.913 seconds (JVM running for 3.742)
+2022-05-26 13:35:09,536 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:35:39,487 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 13:35:39,487 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653590139487, current=DOWN, previous=UP]
+2022-05-26 13:35:39,487 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:35:39,492 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:35:41,602 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 13:35:44,622 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 13:35:44,627 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - deregister  status: 200
+2022-05-26 13:35:44,679 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-05-26 13:35:54,646 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 13:35:54,652 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 19432 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 13:35:54,653 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 13:35:54,696 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 13:35:54,696 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 13:35:55,458 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=857253e7-b7d4-3d53-8711-39cc6b749f7d
+2022-05-26 13:35:55,518 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:35:55,519 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:35:55,520 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:35:56,091 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 13:35:56,091 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 13:35:56,091 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 13:35:56,091 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 13:35:56,092 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 13:35:56,093 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 13:35:56,264 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 13:35:56,272 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 13:35:56,516 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 13:35:56,575 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 13:35:56,613 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 13:35:56,616 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 13:35:56,638 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 13:35:56,639 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 13:35:56,919 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 13:35:56,925 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 13:35:56,931 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 13:35:56,944 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653590156943 with initial instances count: 2
+2022-05-26 13:35:56,945 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 13:35:56,946 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653590156946, current=UP, previous=STARTING]
+2022-05-26 13:35:56,947 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:35:56,983 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:35:57,091 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 13:35:57,092 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 13:35:57,263 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 3.123 seconds (JVM running for 4.019)
+2022-05-26 13:40:56,653 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:41:16,824 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 13:41:16,824 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653590476824, current=DOWN, previous=UP]
+2022-05-26 13:41:16,825 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:41:16,838 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:41:18,910 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 13:41:21,941 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 13:41:21,949 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - deregister  status: 200
+2022-05-26 13:41:21,994 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-05-26 13:41:27,688 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 13:41:27,690 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 12748 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 13:41:27,691 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 13:41:27,721 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 13:41:27,721 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 13:41:28,331 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=857253e7-b7d4-3d53-8711-39cc6b749f7d
+2022-05-26 13:41:28,380 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:41:28,381 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:41:28,381 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 13:41:28,876 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 13:41:28,876 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 13:41:28,876 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 13:41:28,877 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 13:41:28,878 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 13:41:28,878 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 13:41:29,023 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 13:41:29,029 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 13:41:29,239 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 13:41:29,292 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 13:41:29,327 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 13:41:29,330 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 13:41:29,350 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 13:41:29,350 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 13:41:29,351 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 13:41:29,351 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 13:41:29,351 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 13:41:29,351 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 13:41:29,351 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 13:41:29,601 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 13:41:29,609 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 13:41:29,614 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 13:41:29,625 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653590489625 with initial instances count: 2
+2022-05-26 13:41:29,626 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 13:41:29,626 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653590489626, current=UP, previous=STARTING]
+2022-05-26 13:41:29,628 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 13:41:29,662 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 13:41:29,767 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 13:41:29,767 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 13:41:29,917 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 2.783 seconds (JVM running for 3.54)
+2022-05-26 13:46:29,371 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:51:29,382 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 13:56:29,397 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:00:09,255 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 14:00:09,257 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653591609257, current=DOWN, previous=UP]
+2022-05-26 14:00:09,258 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 14:00:09,279 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 14:00:11,368 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 14:00:14,401 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 14:00:14,406 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - deregister  status: 200
+2022-05-26 14:00:14,483 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-05-26 14:19:35,013 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 14:19:35,026 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 19172 (C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Gateway-API-tarjetas)
+2022-05-26 14:19:35,028 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 14:19:35,102 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 14:19:35,103 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 14:19:36,709 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=685a60c5-8349-3390-9048-4b07ac53aeb4
+2022-05-26 14:19:37,008 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 14:19:37,013 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 14:19:37,018 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 14:19:38,595 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 14:19:38,595 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 14:19:38,596 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 14:19:38,597 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 14:19:39,921 WARN org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration [restartedMain] Check result of the [WebClientSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=java.util.concurrent.TimeoutException: Timed out after 1000ms}]
+2022-05-26 14:19:40,215 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 14:19:40,234 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 14:19:40,639 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 14:19:40,726 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 14:19:40,782 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 14:19:40,787 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 14:19:40,815 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 14:19:40,815 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 14:19:40,815 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 14:19:40,815 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 14:19:40,815 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 14:19:40,816 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 14:19:40,816 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 14:19:41,311 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 14:19:41,317 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 14:19:41,324 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 14:19:41,338 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653592781337 with initial instances count: 0
+2022-05-26 14:19:41,343 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 14:19:41,343 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653592781343, current=UP, previous=STARTING]
+2022-05-26 14:19:41,345 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 14:19:41,402 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 14:19:41,404 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 14:19:41,491 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 14:19:41,663 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 7.761 seconds (JVM running for 9.497)
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-05-26 14:20:11,324 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-05-26 14:20:11,333 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-05-26 14:24:40,821 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:29:40,834 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:33:20,209 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:33:34,658 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:33:35,961 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:33:36,906 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:33:37,697 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:34:40,841 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:39:40,847 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:44:40,855 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:47:47,594 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:47:51,541 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:47:58,405 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:47:59,703 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:48:06,933 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 14:49:40,869 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-26 14:51:12,630 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-6] Flushing remaining spans on shutdown
+2022-05-26 14:51:12,631 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 14:51:12,632 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653594672632, current=DOWN, previous=UP]
+2022-05-26 14:51:12,632 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 14:51:12,639 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 14:51:15,850 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 20:18:49,434 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-26 20:18:49,431 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayApiTarjetasApplication using Java 17.0.2 on LAPTOP-BDSVOCO1 with PID 19400 (C:\Users\106486781\Documents\Java\IdeaProjects\Proyecto-Tarjetas\Gateway-API-tarjetas\target\classes started by 106486781 in C:\Users\106486781\Documents\Java\IdeaProjects\Proyecto-Tarjetas\Gateway-API-tarjetas)
+2022-05-26 20:18:49,436 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 20:18:49,533 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 20:18:49,534 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 20:18:51,599 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=685a60c5-8349-3390-9048-4b07ac53aeb4
+2022-05-26 20:18:51,999 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 20:18:52,003 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 20:18:52,010 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-26 20:18:54,430 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-05-26 20:18:54,431 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-05-26 20:18:54,432 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-05-26 20:18:54,433 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-05-26 20:18:54,433 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-05-26 20:18:54,434 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-05-26 20:18:54,434 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-05-26 20:18:54,435 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-05-26 20:18:54,436 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-05-26 20:18:54,436 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-05-26 20:18:54,437 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-05-26 20:18:54,437 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-05-26 20:18:54,438 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-05-26 20:18:54,438 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-05-26 20:18:56,166 WARN org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration [restartedMain] Check result of the [WebClientSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=java.util.concurrent.TimeoutException: Timed out after 1000ms}]
+2022-05-26 20:18:56,848 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-26 20:18:56,884 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-26 20:18:57,654 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-2] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:18:58,255 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 20:18:58,418 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 20:18:58,490 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 20:18:58,497 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-26 20:18:58,539 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-26 20:18:58,540 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-26 20:18:58,541 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-26 20:18:58,542 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-26 20:18:58,542 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-26 20:18:58,542 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-26 20:18:58,543 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-26 20:18:59,374 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-26 20:18:59,394 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-26 20:18:59,417 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-26 20:18:59,466 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653614339462 with initial instances count: 0
+2022-05-26 20:18:59,485 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application GATEWAY-API-TARJETAS with eureka with status UP
+2022-05-26 20:18:59,487 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653614339487, current=UP, previous=STARTING]
+2022-05-26 20:18:59,494 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 20:18:59,693 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-05-26 20:18:59,699 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-05-26 20:18:59,778 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 20:19:00,340 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayApiTarjetasApplication in 12.154 seconds (JVM running for 13.995)
+2022-05-26 20:19:29,416 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-05-26 20:19:29,417 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-05-26 20:19:29,418 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-05-26 20:19:29,449 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-05-26 20:19:29,451 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-05-26 20:19:29,452 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-05-26 20:19:29,452 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-05-26 20:19:29,481 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-05-26 20:20:59,317 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 20:21:00,386 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-6] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:21:04,573 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 20:21:05,426 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-7] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:21:12,887 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 20:21:13,492 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-8] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:21:21,244 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-5] No servers available for service: servicio-tarjetas
+2022-05-26 20:21:21,555 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-1] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:21:31,631 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-2] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:21:44,735 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-3] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:22:17,070 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-4] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:22:36,282 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-5] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:22:43,345 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-6] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:23:27,200 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-6] Flushing remaining spans on shutdown
+2022-05-26 20:23:27,203 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application GATEWAY-API-TARJETAS with eureka with status DOWN
+2022-05-26 20:23:27,204 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1653614607204, current=DOWN, previous=UP]
+2022-05-26 20:23:27,204 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090: registering service...
+2022-05-26 20:23:27,204 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-7] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:23:27,252 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - registration status: 204
+2022-05-26 20:23:27,815 ERROR reactor.util.Loggers$Slf4JLogger [reactor-http-nio-8] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:141)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:415)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:307)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:158)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:477)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:431)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:542)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:534)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:488)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:223)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:23:29,893 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-05-26 20:23:32,950 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-05-26 20:23:32,995 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [SpringApplicationShutdownHook] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+2022-05-26 20:23:33,001 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [SpringApplicationShutdownHook] Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-05-26 20:23:33,047 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [SpringApplicationShutdownHook] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2022-05-26 20:23:33,048 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [SpringApplicationShutdownHook] Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-05-26 20:23:33,060 ERROR com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_GATEWAY-API-TARJETAS/192.168.1.77:gateway-api-tarjetas:8090 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-26 20:23:33,219 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
